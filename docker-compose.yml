@@ -1,0 +1,9 @@
+version: '2'
+services:
+    app:
+        image: koda/docker-knowledge
+        volumes:
+            - ./volumes/knowledge:/root/.knowledge
+        ports:
+            - "8080:8080"
+        restart: always
