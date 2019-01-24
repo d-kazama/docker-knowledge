@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # docker-knowledge
 Docker file for knowledge
 
@@ -35,3 +36,6 @@ chmod a+w /home/hoge/knowledge
 docker run -d -p 80:8080 -v /home/hoge/knowledge:/root/.knowledge --name knowledge knowledge
 ```
 
+=======
+# docker-knowledge
+>>>>>>> 4f217f9a2f3c0e4a2230e266cc501a95993b360d
